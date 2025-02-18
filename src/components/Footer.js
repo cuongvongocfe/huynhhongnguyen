@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
   AiOutlineTwitter,
-  AiFillInstagram,
+  AiFillFacebook,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -17,7 +17,7 @@ function Footer() {
           <h3>Designed by </h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} </h3>
+          <h3>Copyright © {2025} </h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
@@ -31,16 +31,16 @@ function Footer() {
                 <AiFillGithub />
               </a>
             </li> */}
-            {/* <li className="social-icons">
+            <li className="social-icons">
               <a
                 href="https://twitter.com/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiOutlineTwitter />
+                <AiFillFacebook />
               </a>
-            </li> */}
+            </li>
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/hồng-nguyên-huỳnh-b30577222"
